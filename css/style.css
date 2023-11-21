@@ -1,0 +1,333 @@
+/* IMB Plex Sans */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family : 'IBM Plex Sans', sans-serif;
+    color: #424344;
+}
+
+/* container */
+.container {
+    width: 60%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* h2 tag font bold and margin bottom */
+h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+/* color */
+.blue1 {
+    background-color: #255FD0;
+    color: #ffffff;
+}
+
+.blue2 {
+    background-color: #6D7FD0;
+}
+
+.gray1 {
+    background-color: #424344;
+}
+
+.gray2 {
+    background-color: #C2C6CB;
+}
+
+
+/* #home */
+#home .container {
+    margin-top: 10rem;
+}
+
+
+#home .home-header {
+    margin-bottom: 2rem;
+}
+
+#home .home-header > h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    margin-bottom: 0.7rem;
+}
+
+#home .home-header > h1 > span {
+    font-size: larger;
+    color: #255FD0;
+}
+
+#home .home-header > p {
+    font-weight: 600;
+    font-size:larger;
+}
+
+#home .home-header p > span {
+    color: #255FD0;
+}
+
+#home .home-intro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#home .home-intro p {
+    margin-bottom: 0.6rem;
+}
+
+#home .home-intro span{
+    color: #255FD0;
+}
+
+#home button {
+    background-color: #dbe6f8;
+    color: #255FD0; 
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 11rem;
+    margin-top: 1.2rem;
+}
+
+/* #about */
+#about .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about .content img {
+    border-radius: 3.5rem;
+    margin: 0 3rem 0 0;
+}
+
+#about .content p {
+    margin-bottom: 0.6rem;
+}
+
+#about .content span {
+    color: #255FD0;
+    /* text-decoration: underline; */
+}
+
+/* lectures-1. category */
+#lecture .lecture-category {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+#lecture .lecture-category .big-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start; /* - */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lecture .lecture-category .big-box > .small-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; /* | */
+}
+
+#lecture .lecture-category .big-box > .small-box > .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    width: 8rem;
+    height: 10rem;
+    margin-bottom: 1.2rem;
+}
+
+#lecture .lecture-category .big-box > .small-box > .box > span{
+    margin: 0.4rem 0 ;
+    font-size: medium;
+}
+
+#lecture .lecture-category .big-box > .small-box > ul {
+    padding-left: 1.2rem;
+}
+
+#lecture .lecture-category .big-box > .small-box > ul > li{
+    font-size: smaller;
+}
+
+/* lectures-2. history */
+#lecture .lecture-history .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lecture .lecture-history .content ul li{
+   margin-bottom: 0.4rem;
+   font-size: larger;
+}
+
+#lecture .lecture-history .content > img {
+    width: 40%;
+}
+
+#lecture .lecture-history button {
+    background-color: #dbe6f8;
+    color: #255FD0; 
+    border: none;
+    padding: 0.4rem 1.1rem;
+    border-radius: 11rem;
+}
+
+/* lecture-detail */
+#lecture-detail {
+    margin-top: 10rem;
+}
+
+#lecture-detail h3 {
+    color: #255FD0;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#lecture-detail .company-box {
+    margin-top: 5rem;
+}
+
+#lecture-detail .company-box ul{
+    margin-top: 1.5rem;
+}
+
+#lecture-detail .company-box ul li{
+    margin-bottom: 0.4rem;
+    font-size: larger;
+ }
+
+#lecture-detail .company-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#lecture-detail img {
+    height: 2rem;
+    opacity: 70%;
+}
+
+
+/* consulting */
+
+#consulting .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#consulting .content ul li{
+   margin-bottom: 0.4rem;
+   font-size: larger;
+}
+
+#consulting img {
+    width: 30%;
+    margin-right: 4rem;
+}
+
+#consulting button {
+    background-color: #dbe6f8;
+    color: #255FD0; 
+    border: none;
+    padding: 0.4rem 1.1rem;
+    border-radius: 11rem;
+}
+
+/* consulting-detail */
+
+#consulting-detail {
+    margin-top: 10rem;
+}
+
+#consulting-detail h3 {
+    color: #255FD0;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#consulting-detail .company-box {
+    margin-top: 5rem;
+}
+
+#consulting-detail .company-box ul{
+    margin-top: 1.5rem;
+}
+
+#consulting-detail .company-box ul li{
+    margin-bottom: 0.4rem;
+    font-size: larger;
+ }
+
+#consulting-detail .company-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#consulting-detail img {
+    height: 2.4rem;
+    opacity: 70%;
+}
+
+/* contactus */
+
+#contactus ul{
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+#contactus ul > li{
+    margin-bottom: 0.4rem;
+    font-size: larger;
+}
+
+#contactus ul > li > img {
+    width: 1.3rem;
+    margin-right: 1.2rem;
+}
+
+/* footer */
+#footer {
+    background-color: #424344;
+    color: #ffffff;
+    opacity: 60%;
+    width: 100%;
+    padding-top: 1.4rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer .content {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 0px;
+}

@@ -1,0 +1,113 @@
+nav#mainNav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #f9f9f9;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+nav#mainNav.navbar-shrink {
+    padding-top: 1.1rem;
+    padding-bottom: 0rem;
+}
+
+nav#mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+}
+
+nav .container {
+    width: 65%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px !important;
+    padding-bottom: 1.2rem;
+}
+
+nav img {
+    width: 2.4rem;
+}
+
+nav .nav-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+nav .nav-content a {
+    text-decoration-line: none;
+    color: #424344;
+    font-weight: 400;
+}
+
+nav .dropdown-header a {
+    font-size: large;
+    color: #255FD0;
+}
+nav a button {
+    background-color: #dbe6f8;
+    color: #255FD0; 
+    border: none;
+    padding: 0.4rem 1.1rem;
+    /* width: 7rem;
+    height: 2.5rem; */
+}
+
+/* nav a tag color */
+nav .nav-content > a.active-blue {
+    color:  #255FD0;
+}
+
+nav .nav-content > a.normal-grey {
+    color:  #C2C6CB;
+}
+
+nav .nav-content a:hover {
+    color: #255FD0;
+}
+
+
+nav .nav-content .nav-link{
+    background-color: #255FD0;
+    color: #ffffff;
+}
+
+nav .nav-content a:active {
+    background-color: #255FD0;
+}
+
+/* nav - lecture-detail.html */
+nav .nav-content .clicked {
+    color: #255FD0;
+}
+
+nav .nav-content a:hover {
+    background-color: #ffffff;
+    color: #255FD0;
+}
+
+
+nav .nav-content li:active {
+    background-color: #255FD0;
+}
+
+nav .nav-content a:active {
+    background-color: #255FD0;
+    color: #ffffff;
+}
+
+
